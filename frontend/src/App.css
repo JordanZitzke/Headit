@@ -1,0 +1,247 @@
+html {
+  background-image: url(https://wallpapercave.com/wp/wp5728306.jpg);
+  height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  transition: opacity 90s linear;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow-y: auto;
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5%
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 0, 0, 0);
+  width: 90%;
+  padding: 5%;
+}
+
+.homepage-post {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 15px;
+  border-radius: 15px;
+
+  text-align: justify;
+  font-size: 8px;
+}
+
+.p1 {
+
+  text-align: justify;
+  font-size: 3px;
+
+}
+
+.homepage-post_karma {
+  color: cyan;
+
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+
+button {
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+
+  padding: 5px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  background: linear-gradient(90deg, #fe451b 0%, #daae51 100%);
+  transition: 0.4s;
+
+
+}
+
+.logbar {
+  background: none;
+  margin-right: 85px;
+  margin-left: 15px;
+}
+
+.logologin {
+  background: none;
+  width: 150px;
+  height: 150px;
+  margin: 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.button-lgn {
+  font-size: 10px;
+  margin-right: 2px;
+  width: 80px;
+
+}
+
+.button-lgn2 {
+  margin-top: 10px;
+  font-size: 18px;
+  width: 90px;
+
+
+}
+
+.button-reg {
+  background: linear-gradient(90deg, #fe451b 0%, #daae51 100%);
+  font-size: 10px;
+
+  width: 80px;
+}
+
+.registrar {
+
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.button-reg2 {
+
+  background: linear-gradient(90deg, #daae51 0%, #d53369 100%);
+  font-size: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.button-cad {
+  font-size: 9px;
+  margin-left: auto;
+}
+
+.button-cad2 {
+  padding: 1px;
+  font-size: 9px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+
+.barrinha {
+  position: relative;
+  right: 20%;
+
+}
+
+.All {
+  position: relative;
+  font-size: 9px;
+  right: 26%;
+  padding: 2px;
+
+}
+
+.Following {
+  font-size: 9px;
+  padding: 2px;
+
+}
+
+
+
+
+
+
+.logo {
+  border-radius: 0px;
+  margin: 0 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+
+}
+
+
+#header {
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 56px;
+  padding: 1px;
+  justify-content: space-between;
+  background: #ff451b;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 2px inset rgb(255, 255, 255);
+
+}
+
+#menu {
+
+  display: flex;
+  align-items: center;
+
+  border: 0px solid #ccc;
+
+
+}
+
+.menu ul {
+  position: relative;
+
+  right: 10%;
+  justify-content: space-between;
+}
